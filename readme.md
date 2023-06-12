@@ -25,3 +25,7 @@ Run the following commands in backend folder:
 npm install
 node index.js
 ```
+To connect to a mongodb database, create a `.env` file in the backend folder, and add the following line:
+```bash
+MONGODB_URI=mongodb+srv://<USER>:<PASSWORD>@cluster0.e0yanu0.mongodb.net/?retryWrites=true&w=majority
+```
